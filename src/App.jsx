@@ -52,7 +52,7 @@ export default function App() {
     dispatch({ type: "SET_LOADING", payload: true });
 
     try {
-      const GEMINI_API_KEY = "AIzaSyAaitFnIuiRbEjr7EcmMq9Ieg5LQJzAs2I";
+      const GEMINI_API_KEY = "AIzaSyDXRYrp-wgLJMIAZmGuH7UMfv_Z8GwgKPc";
       const url = `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
       const response = await fetch(url, {
